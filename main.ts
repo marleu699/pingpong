@@ -1,12 +1,4 @@
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherSprite) {
-    if (sprite == it) {
-        it = otherSprite
-        game.splash("IT")
-    } else if (otherSprite == it) {
-        it = sprite
-    }
-})
-let it: Sprite = null
+tiles.setCurrentTilemap(tilemap`level1`)
 let player1 = sprites.create(img`
     . . . . . . f f f f . . . . . . 
     . . . . f f f 2 2 f f f . . . . 
@@ -49,5 +41,3 @@ player1.setPosition(30, 60)
 player2.setPosition(130, 60)
 player1.ay = 100
 player2.ay = 100
-it = player1
-player1.say("IT", 500)
