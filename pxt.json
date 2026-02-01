@@ -1,5 +1,5 @@
 {
-    "name": "pingPong",
+    "name": "Tag",
     "description": "",
     "dependencies": {
         "device": "*",
