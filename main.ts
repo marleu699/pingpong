@@ -1,5 +1,5 @@
 mp.onControllerEvent(ControllerEvent.Connected, function () {
-    player2.setPosition(130, 60)
+    player2.setPosition(50, 60)
     player2 = sprites.create(img`
         . . . . f f f f f . . . . . . . 
         . . . f e e e e e f . . . . . . 
